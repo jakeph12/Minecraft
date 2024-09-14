@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 185.161.93.117
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1726342447839
+  login: 1726340399192
+money: '-8200'
+logoutlocation:
+  world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
+  world-name: world
+  x: -33.32661015911457
+  y: 55.0
+  z: 47.31830637549911
+  yaw: -111.75
+  pitch: 90.0
+last-account-name: Nergon123
+lastlocation:
+  world: 76db7716-0605-4bfc-a817-3119fd1094e2
+  world-name: world_nether
+  x: -84.75380784134839
+  y: 19.33030635604114
+  z: -44.69999998807907
+  yaw: -19.4580078125
+  pitch: -31.190305709838867

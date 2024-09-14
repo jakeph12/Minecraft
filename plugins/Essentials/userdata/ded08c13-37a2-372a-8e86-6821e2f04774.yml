@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 149.255.83.39
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1726053224204
+  login: 1726052281125
+money: '0'
+last-account-name: Meowurka
+logoutlocation:
+  world: 76db7716-0605-4bfc-a817-3119fd1094e2
+  world-name: world_nether
+  x: 132.69999998807907
+  y: 66.0
+  z: 52.56826911012223
+  yaw: 80.69940185546875
+  pitch: 17.10004234313965
+lastlocation:
+  world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
+  world-name: world
+  x: 21.5
+  y: 71.0
+  z: 75.5
+  yaw: 0.0
+  pitch: 0.0

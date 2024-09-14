@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 95.85.103.95
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1726057358395
+  login: 1726057137356
+money: '0'
+last-account-name: Emeralpro777
+logoutlocation:
+  world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
+  world-name: world
+  x: 156.0012954492791
+  y: 83.0
+  z: 34.990243828931824
+  yaw: -97.74264526367188
+  pitch: 17.549930572509766
