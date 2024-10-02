@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 178.209.153.37
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 1727816768061
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1727902823509
+  login: 1727902810559
+money: '0'
+logoutlocation:
+  world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
+  world-name: world
+  x: 761.3063756612875
+  y: 68.0
+  z: 453.6587701812394
+  yaw: -141.8809814453125
+  pitch: 8.973003387451172
+last-account-name: Jakeph12
+lastlocation:
+  world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
+  world-name: world
+  x: 496.81616110786905
+  y: 118.43994538159977
+  z: 162.96821535668667
+  yaw: -1.3370394706726074
+  pitch: 11.499558448791504

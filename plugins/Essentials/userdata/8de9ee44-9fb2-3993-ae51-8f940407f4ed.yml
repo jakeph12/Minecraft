@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 78.26.130.56
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1727030777766
+  login: 1727028578504
+money: '0'
+last-account-name: Toka
+logoutlocation:
+  world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
+  world-name: world
+  x: 759.0576292473777
+  y: -11.0
+  z: 376.69999998807907
+  yaw: 168.1669921875
+  pitch: 46.95002746582031
+lastlocation:
+  world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
+  world-name: world
+  x: 208.4372287439378
+  y: 62.790935417380126
+  z: 1117.4614150722912
+  yaw: 74.6812744140625
+  pitch: 11.250080108642578

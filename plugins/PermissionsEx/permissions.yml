@@ -1,0 +1,22 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - modifyworld.*
+schema-version: 1
+users:
+  4c350acc-12e5-368e-88f3-25c804a845d9:
+    permissions:
+    - '*'
+    options:
+      name: Nergon123
+      prefix: set
+      suffix: help
+  cae6e24d-96f8-3685-af95-73fef33a5269:
+    options:
+      name: Sanya21
+    permissions:
+    - essentials.eco
+    - essentials.balance.*
+    - essentials.balance

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 46.63.123.44
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1727629574111
+  login: 1727629199095
+money: '0'
+last-account-name: KeBaB_MaSTeR42
+logoutlocation:
+  world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
+  world-name: world
+  x: 803.9720658722315
+  y: 63.0
+  z: 485.30000001192093
+  yaw: 176.29998779296875
+  pitch: 1.9938619136810303
+lastlocation:
+  world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
+  world-name: world
+  x: 760.9088949760302
+  y: 68.0
+  z: 448.73483806160397
+  yaw: -106.49000549316406
+  pitch: 43.900264739990234

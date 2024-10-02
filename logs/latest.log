@@ -1,0 +1,233 @@
+[16:10:30] [Netty Epoll Server IO #0/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:47) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:555) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:172) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:21:00] [User Authenticator #118/INFO]: UUID of player Nergon123 is 4c350acc-12e5-368e-88f3-25c804a845d9
+[16:21:02] [Server thread/INFO]: Nergon123 joined the game
+[16:21:02] [Server thread/INFO]: Nergon123[/185.161.93.117:43564] logged in with entity id 862937 at ([world]260.5003483292373, 63.0, 325.6411134387301)
+[16:21:45] [Server thread/INFO]: Nergon123 issued server command: /warp spawn
+[16:21:45] [Server thread/WARN]: Nergon123 moved too quickly! -209.173678821213,1.0,-355.3151239021677
+[16:27:49] [Server thread/INFO]: Nergon123 issued server command: /fly
+[16:30:13] [Server thread/INFO]: Nergon123 issued server command: //walls
+[16:30:22] [Server thread/INFO]: Nergon123 issued server command: //thaw
+[16:31:00] [Server thread/INFO]: Nergon123 issued server command: //perf
+[16:31:21] [Server thread/INFO]: Nergon123 issued server command: //perf -h entity_ai on
+[16:31:23] [Server thread/INFO]: Nergon123 issued server command: //perf -h entity_ai off
+[16:32:32] [Server thread/INFO]: Nergon123 lost connection: Disconnected
+[16:32:32] [Server thread/INFO]: Nergon123 left the game
+[17:07:32] [Server thread/WARN]: [AdvancedBackups] 
+
+
+***************************************
+SAVING DISABLED - PREPARING FOR BACKUP!
+***************************************
+[17:07:32] [Server thread/WARN]: [AdvancedBackups] 
+
+
+*************************************
+SAVE COMPLETE - PREPARING FOR BACKUP!
+*************************************
+[17:07:32] [AB Active Backup Thread/INFO]: [AdvancedBackups] Preparing differential backup with name: backup_2024-10-02_17-07-32
+[17:07:37] [Server thread/INFO]: [AdvancedBackups] Backup in progress : 40%
+[17:07:38] [AB Active Backup Thread/INFO]: Snapshot : false
+[17:07:38] [AB Active Backup Thread/INFO]: Beginning purge checks : ./backups/world/differential
+[17:07:38] [AB Active Backup Thread/INFO]: Backup count check disabled
+[17:07:38] [Server thread/WARN]: [AdvancedBackups] 
+
+
+*********************************
+SAVING ENABLED - BACKUP COMPLETE!
+*********************************
+[17:39:05] [User Authenticator #119/INFO]: UUID of player Sanya21 is cae6e24d-96f8-3685-af95-73fef33a5269
+[17:39:07] [Server thread/INFO]: Sanya21 joined the game
+[17:39:07] [Server thread/INFO]: Sanya21[/185.161.93.117:63635] logged in with entity id 867640 at ([world]775.0478420915849, 63.0, 405.8485292189705)
+[17:40:04] [Server thread/INFO]: Sanya21 issued server command: /fly
+[17:40:38] [Server thread/INFO]: Sanya21 issued server command: /warp spawn
+[17:40:44] [Server thread/INFO]: Sanya21 issued server command: /gamemode creative
+[17:41:13] [Server thread/INFO]: Sanya21 issued server command: /gamemode survival
+[17:41:35] [Server thread/INFO]: Sanya21 issued server command: /gamemode creative
+[17:41:57] [Server thread/INFO]: Sanya21 issued server command: /gamemode survival
+[17:42:15] [Server thread/INFO]: Sanya21 issued server command: /warp fish
+[17:42:22] [Server thread/INFO]: Sanya21 issued server command: /gamemode creative
+[17:42:50] [Server thread/INFO]: Sanya21 issued server command: /gamemode survival
+[17:43:40] [Server thread/INFO]: Sanya21 issued server command: /gamemode creative
+[17:46:09] [Server thread/INFO]: Sanya21 issued server command: /gamemode survival
+[17:46:11] [Server thread/INFO]: Sanya21 issued server command: /gamemode creative
+[17:47:51] [Server thread/INFO]: Sanya21 issued server command: /gamemode survival
+[17:48:03] [Server thread/INFO]: Sanya21 issued server command: /fly
+[17:52:16] [Server thread/INFO]: Sanya21 issued server command: /gamemode creative
+[17:52:38] [Server thread/INFO]: Sanya21 issued server command: /gamemode survival
+[17:52:41] [Server thread/INFO]: Sanya21 issued server command: /fly
+[17:54:57] [Server thread/INFO]: Sanya21 issued server command: /time set day
+[18:07:38] [Server thread/WARN]: [AdvancedBackups] 
+
+
+***************************************
+SAVING DISABLED - PREPARING FOR BACKUP!
+***************************************
+[18:07:38] [Server thread/WARN]: [AdvancedBackups] 
+
+
+*************************************
+SAVE COMPLETE - PREPARING FOR BACKUP!
+*************************************
+[18:07:38] [AB Active Backup Thread/INFO]: [AdvancedBackups] Preparing differential backup with name: backup_2024-10-02_18-07-38
+[18:07:43] [Server thread/INFO]: [AdvancedBackups] Backup in progress : 40%
+[18:07:44] [AB Active Backup Thread/INFO]: Snapshot : false
+[18:07:44] [AB Active Backup Thread/INFO]: Beginning purge checks : ./backups/world/differential
+[18:07:44] [AB Active Backup Thread/INFO]: Backup count check disabled
+[18:07:44] [Server thread/WARN]: [AdvancedBackups] 
+
+
+*********************************
+SAVING ENABLED - BACKUP COMPLETE!
+*********************************
+[18:15:54] [Server thread/INFO]: Sanya21 issued server command: //copy
+[18:16:09] [Server thread/INFO]: Sanya21 issued server command: //paste
+[18:16:23] [Server thread/INFO]: Sanya21 issued server command: //undo
+[18:16:40] [Server thread/INFO]: Sanya21 issued server command: //paste
+[18:16:54] [Server thread/INFO]: Sanya21 issued server command: //undo
+[18:17:09] [Server thread/INFO]: Sanya21 issued server command: //paste
+[18:17:13] [Server thread/INFO]: Sanya21 issued server command: //undo
+[18:17:16] [Server thread/INFO]: Sanya21 issued server command: //paste
+[18:17:22] [Server thread/INFO]: Sanya21 issued server command: //undo
+[18:17:25] [Server thread/INFO]: Sanya21 issued server command: //paste
+[18:17:37] [Server thread/INFO]: Sanya21 issued server command: //paste
+[18:17:42] [Server thread/INFO]: Sanya21 issued server command: //undo
+[18:31:57] [Server thread/INFO]: Sanya21 issued server command: /gamemode creative
+[19:03:43] [Server thread/INFO]: Sanya21 issued server command: //set 1
+[19:04:11] [Server thread/INFO]: Sanya21 issued server command: //set 1
+[19:06:31] [Server thread/INFO]: Sanya21 issued server command: /time set day
+[19:07:44] [Server thread/WARN]: [AdvancedBackups] 
+
+
+***************************************
+SAVING DISABLED - PREPARING FOR BACKUP!
+***************************************
+[19:07:44] [Server thread/WARN]: [AdvancedBackups] 
+
+
+*************************************
+SAVE COMPLETE - PREPARING FOR BACKUP!
+*************************************
+[19:07:44] [AB Active Backup Thread/INFO]: [AdvancedBackups] Preparing differential backup with name: backup_2024-10-02_19-07-44
+[19:07:49] [Server thread/INFO]: [AdvancedBackups] Backup in progress : 39%
+[19:07:50] [AB Active Backup Thread/INFO]: Snapshot : false
+[19:07:50] [AB Active Backup Thread/INFO]: Beginning purge checks : ./backups/world/differential
+[19:07:50] [AB Active Backup Thread/INFO]: Backup count check disabled
+[19:07:50] [Server thread/WARN]: [AdvancedBackups] 
+
+
+*********************************
+SAVING ENABLED - BACKUP COMPLETE!
+*********************************
+[19:10:27] [Server thread/INFO]: Sanya21 issued server command: //set 0
+[19:29:31] [Server thread/INFO]: Sanya21 issued server command: /warp spawn
+[20:03:20] [Server thread/INFO]: Sanya21 issued server command: //set watter
+[20:03:50] [Server thread/INFO]: Sanya21 issued server command: //set water
+[20:04:07] [Server thread/INFO]: Sanya21 issued server command: //set water
+[20:07:50] [Server thread/WARN]: [AdvancedBackups] 
+
+
+***************************************
+SAVING DISABLED - PREPARING FOR BACKUP!
+***************************************
+[20:07:50] [Server thread/WARN]: [AdvancedBackups] 
+
+
+*************************************
+SAVE COMPLETE - PREPARING FOR BACKUP!
+*************************************
+[20:07:50] [AB Active Backup Thread/INFO]: [AdvancedBackups] Preparing differential backup with name: backup_2024-10-02_20-07-50
+[20:07:55] [Server thread/INFO]: [AdvancedBackups] Backup in progress : 39%
+[20:07:56] [AB Active Backup Thread/INFO]: Snapshot : false
+[20:07:56] [AB Active Backup Thread/INFO]: Beginning purge checks : ./backups/world/differential
+[20:07:56] [AB Active Backup Thread/INFO]: Backup count check disabled
+[20:07:56] [Server thread/WARN]: [AdvancedBackups] 
+
+
+*********************************
+SAVING ENABLED - BACKUP COMPLETE!
+*********************************
+[20:23:50] [User Authenticator #120/INFO]: UUID of player Nergon123 is 4c350acc-12e5-368e-88f3-25c804a845d9
+[20:23:52] [Server thread/INFO]: Nergon123 joined the game
+[20:23:52] [Server thread/INFO]: Nergon123[/185.161.93.117:54800] logged in with entity id 906831 at ([world]-131.29123874585375, 71.21586448806192, 260.29893496034146)
+[20:24:15] [Server thread/INFO]: Nergon123 issued server command: /gmc
+[20:24:21] [Server thread/INFO]: Nergon123 issued server command: /help
+[20:24:25] [Server thread/INFO]: Nergon123 issued server command: /pex
+[20:24:29] [Server thread/INFO]: Nergon123 issued server command: /tps
+[20:24:34] [Server thread/INFO]: Nergon123 lost connection: Disconnected
+[20:24:34] [Server thread/INFO]: Nergon123 left the game
+[20:24:58] [User Authenticator #121/INFO]: UUID of player Nergon123 is 4c350acc-12e5-368e-88f3-25c804a845d9
+[20:24:59] [Server thread/INFO]: Nergon123 joined the game
+[20:24:59] [Server thread/INFO]: Nergon123[/185.161.93.117:39910] logged in with entity id 907244 at ([world]-167.45236884846688, 71.79393789584152, 271.7743125273791)
+[20:25:04] [Server thread/INFO]: Nergon123 lost connection: Disconnected
+[20:25:04] [Server thread/INFO]: Nergon123 left the game
+[20:57:59] [Server thread/INFO]: Sanya21 lost connection: Disconnected
+[20:57:59] [Server thread/INFO]: Sanya21 left the game
+[21:00:08] [User Authenticator #122/INFO]: UUID of player Jakeph12 is 89fd71e9-6e9a-3bbf-8a9e-befc41624410
+[21:00:10] [Server thread/INFO]: Jakeph12 joined the game
+[21:00:10] [Server thread/INFO]: Jakeph12[/178.209.153.37:54348] logged in with entity id 913992 at ([world]761.3063756612875, 68.0, 453.6587701812394)
+[21:00:23] [Server thread/INFO]: Jakeph12 lost connection: Disconnected
+[21:00:23] [Server thread/INFO]: Jakeph12 left the game
+[21:02:25] [User Authenticator #123/INFO]: UUID of player Nergon123 is 4c350acc-12e5-368e-88f3-25c804a845d9
+[21:02:26] [Server thread/INFO]: Nergon123 joined the game
+[21:02:26] [Server thread/INFO]: Nergon123[/185.161.93.117:7638] logged in with entity id 914517 at ([world]-167.45236884846688, 71.79393789584152, 271.7743125273791)
+[21:03:11] [Server thread/INFO]: Nergon123 lost connection: You took too long to login.
+[21:03:11] [Server thread/INFO]: Nergon123 left the game.
+[21:06:49] [User Authenticator #124/INFO]: UUID of player Nergon123 is 4c350acc-12e5-368e-88f3-25c804a845d9
+[21:06:49] [Server thread/INFO]: Nergon123 joined the game
+[21:06:49] [Server thread/INFO]: Nergon123[/185.161.93.117:46742] logged in with entity id 914762 at ([world]-167.45236884846688, 71.79393789584152, 271.7743125273791)
+[21:07:05] [Server thread/INFO]: Nergon123 issued server command: /save-all
+[21:07:39] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:325) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:312) ~[?:?]
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169) ~[jline-2.12.1.jar:?]
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137) ~[jline-2.12.1.jar:?]
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246) ~[jline-2.12.1.jar:?]
+	at jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[jline-2.12.1.jar:?]
+	at jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[jline-2.12.1.jar:?]
+	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[jline-2.12.1.jar:?]
+	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2349) ~[jline-2.12.1.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:132) [spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+[21:07:39] [Thread-1/INFO]: Stopping server
+[21:07:39] [Thread-1/INFO]: [CoreProtect] Disabling CoreProtect v22.4
