@@ -1,0 +1,39 @@
+[2024/10/02 22:18:13]: §9          __             _       
+[2024/10/02 22:18:13]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/10/02 22:18:13]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/10/02 22:18:13]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/10/02 22:18:13]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/10/02 22:18:13]: §9                  |___/            
+[2024/10/02 22:18:13]: §9 By: www.nickuc.com - V 10.4.4 DEVELOPMENT
+[2024/10/02 22:18:13]: §9 
+[2024/10/02 22:18:13]: §3[nLogin] [DEBUG] All settings were loaded in 103 ms.
+[2024/10/02 22:18:13]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2024/10/02 22:18:13]: §3[nLogin] [DEBUG] All plugin messages were loaded in 146 ms (languageByClient=false).
+[2024/10/02 22:18:13]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2024/10/02 22:18:13]: §3[nLogin] [DEBUG] Loading database...
+[2024/10/02 22:18:13]: §3[nLogin] [DEBUG] Starting logger filter...
+[2024/10/02 22:18:22]: [nLogin] Download finished (took 340ms, hash = c158f52ae3ddae17370634b15bb67d8d277f1552075617a754e97d78aed194b8)
+[2024/10/02 22:18:27]: 
+[2024/10/02 22:18:27]:  §bThank you so much for choosing nLogin! §4<3
+[2024/10/02 22:18:27]: 
+[2024/10/02 22:18:27]:  §4For your safety, please read the message below:
+[2024/10/02 22:18:27]:   §cNever download nLogin from unknown sources.
+[2024/10/02 22:18:27]:   §cA modified version may contain malicious software.
+[2024/10/02 22:18:27]: 
+[2024/10/02 22:18:27]:  §3Trusted sources:
+[2024/10/02 22:18:27]:   §bwww.nickuc.com
+[2024/10/02 22:18:27]:   §bwww.github.com/nickuc
+[2024/10/02 22:18:27]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2024/10/02 22:18:27]: 
+[2024/10/02 22:18:27]:  §3Official support channels:
+[2024/10/02 22:18:27]:   §bDiscord group: §fwww.nickuc.com/discord
+[2024/10/02 22:18:27]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2024/10/02 22:18:27]:   §bEmail: §fsupport@nickuc.com
+[2024/10/02 22:18:27]:   §bYouTube: §fyoutube.com/nickuc
+[2024/10/02 22:18:27]: 
+[2024/10/02 22:18:27]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2024/10/02 22:18:27]:  §eand click the "Setup plugin" button to configure your plugin.
+[2024/10/02 22:18:27]: 
+[2024/10/02 22:18:58]: [nLogin] The user Nergon123 has successfully logged in.
+[2024/10/02 22:19:06]: [nLogin] Update was successfully queued, do not forcibly stop your server. (v10.4.4 0a85c3 => v10.4.9 d9bbff)
+[2024/10/02 22:19:06]: [nLogin] Successful plugin core shutdown (took 0.04s)

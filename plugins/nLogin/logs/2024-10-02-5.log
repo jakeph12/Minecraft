@@ -1,0 +1,82 @@
+[2024/10/02 22:43:23]: §9          __             _       
+[2024/10/02 22:43:23]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/10/02 22:43:23]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/10/02 22:43:23]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/10/02 22:43:23]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/10/02 22:43:23]: §9                  |___/            
+[2024/10/02 22:43:23]: §9 By: www.nickuc.com - V 10.4.9 DEVELOPMENT
+[2024/10/02 22:43:23]: §9 
+[2024/10/02 22:43:23]: §3[nLogin] [DEBUG] All settings were loaded in 72 ms.
+[2024/10/02 22:43:23]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2024/10/02 22:43:23]: §3[nLogin] [DEBUG] All plugin messages were loaded in 95 ms (languageByClient=false).
+[2024/10/02 22:43:23]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2024/10/02 22:43:23]: §3[nLogin] [DEBUG] Loading database...
+[2024/10/02 22:43:24]: §3[nLogin] [DEBUG] Starting logger filter...
+[2024/10/02 22:43:36]: 
+[2024/10/02 22:43:36]:  §bThank you so much for choosing nLogin! §4<3
+[2024/10/02 22:43:36]: 
+[2024/10/02 22:43:36]:  §4For your safety, please read the message below:
+[2024/10/02 22:43:36]:   §cNever download nLogin from unknown sources.
+[2024/10/02 22:43:36]:   §cA modified version may contain malicious software.
+[2024/10/02 22:43:36]: 
+[2024/10/02 22:43:36]:  §3Trusted sources:
+[2024/10/02 22:43:36]:   §bwww.nickuc.com
+[2024/10/02 22:43:36]:   §bwww.github.com/nickuc
+[2024/10/02 22:43:36]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2024/10/02 22:43:36]: 
+[2024/10/02 22:43:36]:  §3Official support channels:
+[2024/10/02 22:43:36]:   §bDiscord group: §fwww.nickuc.com/discord
+[2024/10/02 22:43:36]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2024/10/02 22:43:36]:   §bEmail: §fsupport@nickuc.com
+[2024/10/02 22:43:36]:   §bYouTube: §fyoutube.com/nickuc
+[2024/10/02 22:43:36]: 
+[2024/10/02 22:43:36]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2024/10/02 22:43:36]:  §eand click the "Setup plugin" button to configure your plugin.
+[2024/10/02 22:43:36]: 
+[2024/10/02 22:44:25]: [nLogin] The user Nergon123 has successfully logged in.
+[2024/10/02 22:46:13]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Nergon123', `unique_id` = 4c350acc12e5368e88f325c804a845d9,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$JNncbJRnEsTblTMeXYSvz.ClP7GoaXNeCJ53Sbw8CqCZC0L359eIm', `last_ip` = '185.161.93.117', `creation_date` = 2024-09-07 12:33:01.449, `last_seen` = 2024-10-02 22:46:13.507, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"premium.force-notification"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2024/10/02 22:46:13]: §4[nLogin] [ERROR] §cUnexpected error during sending plugin message via ProtocolLib
+java.lang.ExceptionInInitializerError
+	at com.comphenix.protocol.wrappers.CustomPacketPayloadWrapper.<clinit>(CustomPacketPayloadWrapper.java:93)
+	at com.comphenix.protocol.events.AbstractStructure.getCustomPacketPayloads(AbstractStructure.java:978)
+	at com.nickuc.login.ζΠΨθμδμθγκΣηω.a(:123)
+	at com.nickuc.login.ΠλΛουξπΦΨχ.b(:75)
+	at com.nickuc.login.ΠλΛουξπΦΨχ.a(:123)
+	at com.nickuc.login.γδδΛζΨφδΠΛ.a(:71)
+	at com.nickuc.login.ζβκψγαωηκΠΠ.a(:89)
+	at com.nickuc.login.ζβκψγαωηκΠΠ.a(:51)
+	at com.nickuc.login.ξΦοφωαοσμ.a(:72)
+	at com.nickuc.login.ηΓωυυθΔυκπ.b(:76)
+	at com.nickuc.login.ψψθςδχΔνΠ.a(:49)
+	at com.nickuc.login.σΔυγκςνΓλξ.a(:157)
+	at com.nickuc.login.ψλΔθΔψηωτς.b(:92)
+	at com.nickuc.login.ΠσνδσκξΠθεΨ.d(:118)
+	at org.bukkit.craftbukkit.v1_21_R1.scheduler.CraftTask.run(CraftTask.java:82)
+	at org.bukkit.craftbukkit.v1_21_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalArgumentException: Unable to find a method that matches {modifiers=[required: 0, banned: 1000], return={ type exactly class net.minecraft.resources.MinecraftKey }, paramCount=0}
+	at com.comphenix.protocol.reflect.FuzzyReflection.getMethod(FuzzyReflection.java:193)
+	at com.comphenix.protocol.wrappers.CustomPacketPayloadWrapper.<clinit>(CustomPacketPayloadWrapper.java:58)
+	... 18 more
+[2024/10/02 22:53:58]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Jakeph12', `unique_id` = 89fd71e96e9a3bbf8a9ebefc41624410,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$/DU7V.HVbb/Z/pZJjDXjIuumUHJBLokSwr/jtEIsDLFAnGgNG36A6', `last_ip` = '178.209.153.37', `creation_date` = 2024-09-07 10:14:12.119, `last_seen` = 2024-10-02 22:53:58.718, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"premium.force-notification"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2024/10/02 22:53:58]: [nLogin] The user Jakeph12 has successfully logged in.
+[2024/10/02 23:00:25]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Jakeph12', `unique_id` = 89fd71e96e9a3bbf8a9ebefc41624410,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$/DU7V.HVbb/Z/pZJjDXjIuumUHJBLokSwr/jtEIsDLFAnGgNG36A6', `last_ip` = '178.209.153.37', `creation_date` = 2024-09-07 10:14:12.119, `last_seen` = 2024-10-02 23:00:25.604, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"premium.force-notification"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2024/10/02 23:21:57]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Nergon123', `unique_id` = 4c350acc12e5368e88f325c804a845d9,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$JNncbJRnEsTblTMeXYSvz.ClP7GoaXNeCJ53Sbw8CqCZC0L359eIm', `last_ip` = '185.161.93.117', `creation_date` = 2024-09-07 12:33:01.449, `last_seen` = 2024-10-02 23:21:57.376, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"premium.force-notification"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2024/10/03 21:32:38]: [nLogin] Download finished (took 101ms, hash = 70c37a8915a3de56d48a669cac4848ff51cd22db5230c2bd52570f8f1434aa95)
+[2024/10/04 01:30:50]: [nLogin] Download finished (took 167ms, hash = 70c37a8915a3de56d48a669cac4848ff51cd22db5230c2bd52570f8f1434aa95)
+[2024/10/04 01:32:50]: [nLogin] Download finished (took 54ms, hash = 9a94a4b514ff48da5da374fcb4606aaf848a68e3283d5846838a1895233d7839)
+[2024/10/05 13:54:03]: §3[nLogin] [DEBUG] The Sanya21 (185.161.93.117) player entered an incorrect password
+[2024/10/05 13:54:18]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Sanya21', `unique_id` = cae6e24d96f83685af9573fef33a5269,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$0l9YrSpA8OreVKnrl0A8Tu4.gj40heYlSRJneyckPdBL5IkmvFpJK', `last_ip` = '185.161.93.117', `creation_date` = 2024-09-07 14:07:07.342, `last_seen` = 2024-10-05 13:54:18.517, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"premium.force-notification"}],"version":0}' WHERE `ai` = 3" (applied to [last_ip, last_seen, settings] columns)
+[2024/10/05 13:54:18]: [nLogin] The user Sanya21 has successfully logged in.
+[2024/10/05 14:38:25]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Sanya21', `unique_id` = cae6e24d96f83685af9573fef33a5269,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$0l9YrSpA8OreVKnrl0A8Tu4.gj40heYlSRJneyckPdBL5IkmvFpJK', `last_ip` = '185.161.93.117', `creation_date` = 2024-09-07 14:07:07.342, `last_seen` = 2024-10-05 14:38:25.785, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"premium.force-notification"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 3" (applied to [last_seen, settings] columns)
+[2024/10/07 10:57:08]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Sanya21', `unique_id` = cae6e24d96f83685af9573fef33a5269,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$0l9YrSpA8OreVKnrl0A8Tu4.gj40heYlSRJneyckPdBL5IkmvFpJK', `last_ip` = '185.161.93.117', `creation_date` = 2024-09-07 14:07:07.342, `last_seen` = 2024-10-07 10:57:08.625, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"premium.force-notification"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 3" (applied to [last_ip, last_seen, settings] columns)
+[2024/10/07 10:57:08]: [nLogin] The user Sanya21 has successfully logged in.
+[2024/10/07 11:59:01]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Sanya21', `unique_id` = cae6e24d96f83685af9573fef33a5269,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$0l9YrSpA8OreVKnrl0A8Tu4.gj40heYlSRJneyckPdBL5IkmvFpJK', `last_ip` = '185.161.93.117', `creation_date` = 2024-09-07 14:07:07.342, `last_seen` = 2024-10-07 11:59:01.635, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"premium.force-notification"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 3" (applied to [last_seen, settings] columns)
+[2024/10/07 12:26:14]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Jakeph12', `unique_id` = 89fd71e96e9a3bbf8a9ebefc41624410,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$/DU7V.HVbb/Z/pZJjDXjIuumUHJBLokSwr/jtEIsDLFAnGgNG36A6', `last_ip` = '178.209.153.37', `creation_date` = 2024-09-07 10:14:12.119, `last_seen` = 2024-10-07 12:26:14.45, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"premium.force-notification"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2024/10/07 12:26:14]: [nLogin] The user Jakeph12 has successfully logged in.
+[2024/10/07 12:40:34]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Jakeph12', `unique_id` = 89fd71e96e9a3bbf8a9ebefc41624410,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$/DU7V.HVbb/Z/pZJjDXjIuumUHJBLokSwr/jtEIsDLFAnGgNG36A6', `last_ip` = '178.209.153.37', `creation_date` = 2024-09-07 10:14:12.119, `last_seen` = 2024-10-07 12:40:34.493, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"premium.force-notification"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2024/10/07 16:33:58]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Nergon123', `unique_id` = 4c350acc12e5368e88f325c804a845d9,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$JNncbJRnEsTblTMeXYSvz.ClP7GoaXNeCJ53Sbw8CqCZC0L359eIm', `last_ip` = '185.161.93.117', `creation_date` = 2024-09-07 12:33:01.449, `last_seen` = 2024-10-07 16:33:58.402, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"premium.force-notification"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2024/10/07 16:33:58]: [nLogin] The user Nergon123 has successfully logged in.
+[2024/10/07 16:37:59]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Nergon123', `unique_id` = 4c350acc12e5368e88f325c804a845d9,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$JNncbJRnEsTblTMeXYSvz.ClP7GoaXNeCJ53Sbw8CqCZC0L359eIm', `last_ip` = '185.161.93.117', `creation_date` = 2024-09-07 12:33:01.449, `last_seen` = 2024-10-07 16:37:59.885, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"premium.force-notification"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)

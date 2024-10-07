@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: true
+godmode: false
 muted: false
 jailed: false
 ip-address: 185.161.93.117
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: true
 timestamps:
-  lastteleport: 1727886105408
+  lastteleport: 1727909862092
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1727902991643
-  login: 1727903209894
+  logout: 1728319079886
+  login: 1728318829898
 money: '-8200'
 logoutlocation:
   world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
   world-name: world
-  x: -167.45236884846688
-  y: 71.79393789584152
-  z: 271.7743125273791
-  yaw: -146.38694763183594
-  pitch: 32.249996185302734
+  x: 129.62741975386578
+  y: 63.5
+  z: -22.558158219702772
+  yaw: -147.75021362304688
+  pitch: 25.199968338012695
 last-account-name: Nergon123
 lastlocation:
   world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
   world-name: world
-  x: 310.673678821213
-  y: 63.0
-  z: 362.8151239021677
-  yaw: 58.02191162109375
-  pitch: -3.150010585784912
+  x: 927.619555736597
+  y: 134.13196517199202
+  z: 546.9781767587295
+  yaw: 69.62188720703125
+  pitch: 12.59997272491455
 powertools:
   iron_sword:
   - /line nether_bricks
