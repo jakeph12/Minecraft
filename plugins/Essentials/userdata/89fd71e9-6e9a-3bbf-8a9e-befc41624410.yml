@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1728304834493
-  login: 1728303959133
+  logout: 1728376051658
+  login: 1728376038930
 money: '0'
 logoutlocation:
   world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
@@ -25,8 +25,8 @@ logoutlocation:
   x: 769.2585222650903
   y: 68.0
   z: 452.89702181457983
-  yaw: -69.89971923828125
-  pitch: -13.05001163482666
+  yaw: -70.19972229003906
+  pitch: -12.30001163482666
 last-account-name: Jakeph12
 lastlocation:
   world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
