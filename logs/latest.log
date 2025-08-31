@@ -1,0 +1,334 @@
+[13:10:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:10:18] [ServerMain/INFO]: Loaded 1290 recipes
+[13:10:19] [Server thread/INFO]: Starting minecraft server version 1.21
+[13:10:19] [Server thread/INFO]: Loading properties
+[13:10:19] [Server thread/INFO]: This server is running CraftBukkit version 4226-Spigot-146439e-2889b3a (MC: 1.21) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[13:10:20] [Server thread/INFO]: Debug logging is disabled
+[13:10:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:10:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:10:20] [Server thread/INFO]: Default game type: SURVIVAL
+[13:10:20] [Server thread/INFO]: Generating keypair
+[13:10:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:10:20] [Server thread/INFO]: Using default channel type
+[13:10:20] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[13:10:25] [Server thread/WARN]: Legacy plugin PermissionsEx v1.23.4 does not specify an api-version.
+[13:10:26] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[13:10:26] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[13:10:26] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.3.6+6892-3d660b8
+[13:10:27] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@29c80a5]
+[13:10:27] [Server thread/INFO]: [AdvancedBackups] Loading AdvancedBackups v3.6.3
+[13:10:27] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+111-b54c8c1
+[13:10:27] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+111-b54c8c1
+[13:10:27] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.3.0-SNAPSHOT-732
+[13:10:27] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.0) has not yet been tested! Proceed with caution.
+[13:10:27] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v22.4
+[13:10:27] [Server thread/INFO]: [nLogin] Loading nLogin v10.4.12
+[13:10:27] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.4.4
+[13:10:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
+[13:10:27] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:10:28] [Server thread/WARN]: [WorldEdit] Loaded class ru.tehkode.permissions.PermissionManager from PermissionsEx v1.23.4 which is not a depend or softdepend of this plugin.
+[13:10:28] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:10:28] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[13:10:28] [Server thread/INFO]: [WorldEdit] ====================================================
+[13:10:28] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[13:10:28] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[13:10:28] [Server thread/INFO]: [WorldEdit]   
+[13:10:28] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[13:10:28] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[13:10:28] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[13:10:28] [Server thread/INFO]: [WorldEdit]   
+[13:10:28] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[13:10:28] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[13:10:28] [Server thread/INFO]: [WorldEdit]   
+[13:10:28] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[13:10:28] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[13:10:28] [Server thread/INFO]: [WorldEdit]   
+[13:10:28] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[13:10:28] [Server thread/INFO]: [WorldEdit] ====================================================
+[13:10:28] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0-SNAPSHOT-732
+[13:10:29] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.12
+[13:10:29] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.18s)
+[13:10:29] [Server thread/INFO]: [0;34;1m          __             _       [m
+[13:10:29] [Server thread/INFO]: [0;34;1m  _ __   / /  ___   __ _(_)_ __  [m
+[13:10:29] [Server thread/INFO]: [0;34;1m | '_ \ / /  / _ \ / _` | | '_ \ [m
+[13:10:29] [Server thread/INFO]: [0;34;1m | | | / /__| (_) | (_| | | | | |[m
+[13:10:29] [Server thread/INFO]: [0;34;1m |_| |_\____/\___/ \__, |_|_| |_|[m
+[13:10:29] [Server thread/INFO]: [0;34;1m                  |___/            [m
+[13:10:29] [Server thread/INFO]: [0;34;1m By: www.nickuc.com - V 10.4.12 DEVELOPMENT[m
+[13:10:29] [Server thread/INFO]: [0;34;1m [m
+[13:10:29] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[13:10:30] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[13:10:30] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.21.0[32;1m.[0;39m[m
+[13:10:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:10:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:10:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:10:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:10:30] [Server thread/INFO]: Preparing level "world"
+[13:10:31] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:10:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:10:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:10:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:10:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:10:31] [Server thread/INFO]: View Distance: 20
+[13:10:31] [Server thread/INFO]: Simulation Distance: 10
+[13:10:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:10:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:10:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:10:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[13:10:31] [Server thread/INFO]: Mob Spawn Range: 6
+[13:10:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[13:10:31] [Server thread/INFO]: Max TNT Explosions: 100
+[13:10:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:10:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:10:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[13:10:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:10:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:10:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:10:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:10:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:10:31] [Server thread/INFO]: View Distance: 20
+[13:10:31] [Server thread/INFO]: Simulation Distance: 10
+[13:10:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:10:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:10:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:10:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[13:10:31] [Server thread/INFO]: Mob Spawn Range: 6
+[13:10:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[13:10:31] [Server thread/INFO]: Max TNT Explosions: 100
+[13:10:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:10:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:10:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[13:10:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[13:10:31] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:10:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:10:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:10:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:10:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:10:32] [Server thread/INFO]: View Distance: 20
+[13:10:32] [Server thread/INFO]: Simulation Distance: 10
+[13:10:32] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:10:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:10:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:10:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[13:10:32] [Server thread/INFO]: Mob Spawn Range: 6
+[13:10:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[13:10:32] [Server thread/INFO]: Max TNT Explosions: 100
+[13:10:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:10:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:10:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[13:10:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[13:10:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:10:32] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:10:32] [Server thread/INFO]: Time elapsed: 364 ms
+[13:10:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:10:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:10:32] [Server thread/INFO]: Time elapsed: 84 ms
+[13:10:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:10:32] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[13:10:32] [Server thread/INFO]: Time elapsed: 156 ms
+[13:10:32] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[13:10:32] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[13:10:32] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[13:10:32] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[13:10:32] [Server thread/INFO]: [AdvancedBackups] Enabling AdvancedBackups v3.6.3
+[13:10:32] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[13:10:32] [Thread-10/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[13:10:33] [Server thread/ERROR]: Запущена версія, яка не підтримується сервером!
+[13:10:33] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[13:10:33] [Server thread/INFO]: No kits found to migrate.
+[13:10:33] [Server thread/INFO]: Loaded 42679 items from items.json.
+[13:10:33] [Server thread/INFO]: Using locale uk_UA
+[13:10:33] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[13:10:33] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[13:10:33] [Server thread/WARN]: Detected supported permissions plugin PermissionsEx without Vault installed.
+[13:10:33] [Server thread/WARN]: Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[13:10:33] [Server thread/INFO]: Using superperms-based permissions.
+[13:10:33] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[13:10:33] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[13:10:33] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.4
+[13:10:34] [Server thread/INFO]: [0;37;1m[0;37;1m[m[CoreProtect] CoreProtect has been successfully enabled![0;37;1m[0;37;1m [m
+[13:10:34] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[13:10:34] [Server thread/INFO]: --------------------
+[13:10:34] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[13:10:34] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[13:10:34] [Server thread/INFO]: --------------------
+[13:10:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:10:34] [Server thread/INFO]: Done (3.133s)! For help, type "help"
+[13:10:34] [Server thread/INFO]: Starting remote control listener
+[13:10:34] [Server thread/INFO]: Thread RCON Listener started
+[13:10:34] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[13:10:34] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[13:10:34] [Craft Scheduler Thread - 6/INFO]: §6Отримання даних про версію...
+[13:10:34] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[13:10:34] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[13:10:34] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[13:10:34] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[13:10:34] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+[13:10:34] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[13:10:34] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[13:10:34] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [31;1m15.4.4[0;39m[m
+[13:10:34] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [31;1mdc501c7[0;39m[m
+[13:10:34] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    A new version ([32;1m15.5.1[36;1m) is available! Downloading update...[0;39m[m
+[13:10:34] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[13:10:34] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m[m
+[13:10:34] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m[m
+[13:10:34] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[GitHubUpdate] Downloading update...[0;39m[m
+[13:10:34] [Craft Scheduler Thread - 0/INFO]: [nLogin] Download finished (took 253ms, hash = 3f30cfa532e7c4d01c6b69e6dc88f0eb1db41a089849c6b96391ee92c9b1266e)
+[13:10:34] [Craft Scheduler Thread - 6/WARN]: §4Ви відстаєте на §c40 §4білд(-ів) EssentialsX!
+[13:10:34] [Craft Scheduler Thread - 6/WARN]: §4Завантажте її тут:§c https://essentialsx.net/downloads.html
+[13:10:35] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 5.3.0 (Running 5.3.0-SNAPSHOT-732). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
+[13:10:35] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[GitHubUpdate] Downloaded update in 1475ms[0;39m[m
+[13:10:35] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[GitHubUpdate] Update saved as SkinsRestorer.jar[0;39m[m
+[13:10:35] [Craft Scheduler Thread - 4/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[GitHubUpdate] The update will be loaded on the next server restart[0;39m[m
+[13:14:37] [User Authenticator #1/INFO]: UUID of player Sanya21 is cae6e24d-96f8-3685-af95-73fef33a5269
+[13:14:38] [Server thread/INFO]: Sanya21[/127.0.0.1:53675] logged in with entity id 90 at ([world_nether]94.19317722042416, 40.5, 45.592753600832424)
+[13:15:06] [Craft Scheduler Thread - 10/ERROR]: [nLogin] Unexpected error during sending plugin message via ProtocolLib
+java.lang.ExceptionInInitializerError: null
+	at com.comphenix.protocol.wrappers.CustomPacketPayloadWrapper.<clinit>(CustomPacketPayloadWrapper.java:93) ~[?:?]
+	at com.comphenix.protocol.events.AbstractStructure.getCustomPacketPayloads(AbstractStructure.java:978) ~[?:?]
+	at com.nickuc.login.πιμΦζΩτχβΦγυξΛ.a(:123) ~[?:?]
+	at com.nickuc.login.ξπξξςκγχ.b(:75) ~[?:?]
+	at com.nickuc.login.ξπξξςκγχ.a(:123) ~[?:?]
+	at com.nickuc.login.γδδΛζΨφδΠΛ.a(:71) ~[?:?]
+	at com.nickuc.login.ςτΩΦπρηΩΓ.a(:100) ~[?:?]
+	at com.nickuc.login.ςτΩΦπρηΩΓ.a(:114) ~[?:?]
+	at com.nickuc.login.ξΩνεξτεθΩΓυςπΩε.a(:83) ~[?:?]
+	at com.nickuc.login.ξξοηλξνΨ.b(:92) ~[?:?]
+	at com.nickuc.login.ΨπξΣευΣΠγςτ.d(:118) ~[?:?]
+	at org.bukkit.craftbukkit.v1_21_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at org.bukkit.craftbukkit.v1_21_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[spigot-1.21-R0.1-SNAPSHOT.jar:4226-Spigot-146439e-2889b3a]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: Unable to find a method that matches {modifiers=[required: 0, banned: 1000], return={ type exactly class net.minecraft.resources.MinecraftKey }, paramCount=0}
+	at com.comphenix.protocol.reflect.FuzzyReflection.getMethod(FuzzyReflection.java:193) ~[?:?]
+	at com.comphenix.protocol.wrappers.CustomPacketPayloadWrapper.<clinit>(CustomPacketPayloadWrapper.java:58) ~[?:?]
+	... 15 more
+[13:15:06] [Craft Scheduler Thread - 10/INFO]: [nLogin] The user Sanya21 has successfully logged in.
+[13:15:34] [Server thread/WARN]: [AdvancedBackups] 
+
+
+***************************************
+SAVING DISABLED - PREPARING FOR BACKUP!
+***************************************
+[13:15:34] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[13:15:34] [Server thread/WARN]: [AdvancedBackups] 
+
+
+*************************************
+SAVE COMPLETE - PREPARING FOR BACKUP!
+*************************************
+[13:15:34] [AB Active Backup Thread/INFO]: [AdvancedBackups] Preparing differential backup with name: backup_2024-12-25_13-15-34
+[13:15:39] [Server thread/INFO]: [AdvancedBackups] Backup in progress : 61%
+[13:15:44] [Server thread/INFO]: [AdvancedBackups] Backup in progress : 78%
+[13:15:48] [Server thread/INFO]: [AdvancedBackups] Backup in progress : 86%
+[13:15:50] [AB Active Backup Thread/INFO]: Snapshot : false
+[13:15:50] [AB Active Backup Thread/INFO]: Beginning purge checks : .\backups\world\differential
+[13:15:50] [AB Active Backup Thread/INFO]: Backup count check disabled
+[13:15:50] [Server thread/WARN]: [AdvancedBackups] 
+
+
+*********************************
+SAVING ENABLED - BACKUP COMPLETE!
+*********************************
+[14:00:35] [User Authenticator #2/INFO]: UUID of player Nergon123 is 4c350acc-12e5-368e-88f3-25c804a845d9
+[14:00:37] [Server thread/INFO]: Nergon123[/192.168.50.249:48862] logged in with entity id 7594 at ([world]159.25265927854045, 133.13183161912994, -18.975615773475273)
+[14:00:39] [Server thread/INFO]: Nergon123 lost connection: Disconnected
+[14:02:30] [User Authenticator #3/INFO]: UUID of player Nergon123 is 4c350acc-12e5-368e-88f3-25c804a845d9
+[14:02:32] [Server thread/INFO]: Nergon123[/192.168.50.249:39856] logged in with entity id 7930 at ([world]159.25265927854045, 133.13183161912994, -18.975615773475273)
+[14:02:36] [Craft Scheduler Thread - 16/INFO]: [nLogin] The user Nergon123 has successfully logged in.
+[14:04:00] [Server thread/INFO]: Nergon123 issued server command: /tp Sanya
+[14:05:02] [Server thread/INFO]: Nergon123 issued server command: /gms
+[14:06:02] [Server thread/INFO]: Nergon123 issued server command: /gmc
+[14:06:30] [Server thread/INFO]: Nergon123 issued server command: /gms
+[14:07:05] [Server thread/INFO]: Nergon123 issued server command: /gmc
+[14:15:50] [Server thread/WARN]: [AdvancedBackups] 
+
+
+***************************************
+SAVING DISABLED - PREPARING FOR BACKUP!
+***************************************
+[14:15:51] [Server thread/WARN]: [AdvancedBackups] 
+
+
+*************************************
+SAVE COMPLETE - PREPARING FOR BACKUP!
+*************************************
+[14:15:51] [AB Active Backup Thread/INFO]: [AdvancedBackups] Preparing differential backup with name: backup_2024-12-25_14-15-51
+[14:15:56] [Server thread/INFO]: [AdvancedBackups] Backup in progress : 57%
+[14:16:00] [Server thread/INFO]: [AdvancedBackups] Backup in progress : 74%
+[14:16:05] [Server thread/INFO]: [AdvancedBackups] Backup in progress : 90%
+[14:16:06] [AB Active Backup Thread/INFO]: Snapshot : false
+[14:16:06] [AB Active Backup Thread/INFO]: Beginning purge checks : .\backups\world\differential
+[14:16:06] [AB Active Backup Thread/INFO]: Backup count check disabled
+[14:16:06] [Server thread/WARN]: [AdvancedBackups] 
+
+
+*********************************
+SAVING ENABLED - BACKUP COMPLETE!
+*********************************
+[14:26:54] [Server thread/INFO]: Nergon123 issued server command: /tp Sanya
+[14:27:21] [Server thread/INFO]: Sanya21 issued server command: //set water
+[14:27:43] [Server thread/INFO]: Sanya21 issued server command: //set water
+[14:27:49] [Server thread/INFO]: Sanya21 issued server command: //set water
+[14:27:55] [Server thread/INFO]: Sanya21 issued server command: //set water
+[14:28:00] [Server thread/INFO]: Sanya21 issued server command: //set water
+[14:28:06] [Server thread/INFO]: Sanya21 issued server command: //set water
+[14:28:16] [Server thread/INFO]: Sanya21 issued server command: //set water
+[14:30:00] [Server thread/INFO]: Nergon123 issued server command: /invsee Sanya
+[14:30:16] [Server thread/INFO]: Sanya21 lost connection: Disconnected

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 178.151.31.2
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1727466187603
+  login: 1727466151294
+money: '0'
+last-account-name: Shpakmen
+lastlocation:
+  world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
+  world-name: world
+  x: 701.4986862327835
+  y: 93.42159999847412
+  z: 480.3643413243454
+  yaw: -110.101318359375
+  pitch: -8.999764442443848
+logoutlocation:
+  world: 7407aad2-ac5b-42aa-8b0f-a0832a0f3441
+  world-name: world
+  x: 826.6410551531072
+  y: 64.0
+  z: 272.32943496550865
+  yaw: 17.251983642578125
+  pitch: 3.900102138519287

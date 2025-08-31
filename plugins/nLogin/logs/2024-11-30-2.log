@@ -1,0 +1,39 @@
+[2024/11/30 20:17:32]: §9          __             _       
+[2024/11/30 20:17:32]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/11/30 20:17:32]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/11/30 20:17:32]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/11/30 20:17:32]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/11/30 20:17:32]: §9                  |___/            
+[2024/11/30 20:17:32]: §9 By: www.nickuc.com - V 10.4.12 DEVELOPMENT
+[2024/11/30 20:17:32]: §9 
+[2024/11/30 20:17:32]: §3[nLogin] [DEBUG] All settings were loaded in 54 ms.
+[2024/11/30 20:17:32]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2024/11/30 20:17:32]: §3[nLogin] [DEBUG] All plugin messages were loaded in 77 ms (languageByClient=false).
+[2024/11/30 20:17:32]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2024/11/30 20:17:32]: §3[nLogin] [DEBUG] Loading database...
+[2024/11/30 20:17:32]: §3[nLogin] [DEBUG] Starting logger filter...
+[2024/11/30 20:30:50]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Nergon123', `unique_id` = 4c350acc12e5368e88f325c804a845d9,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$JNncbJRnEsTblTMeXYSvz.ClP7GoaXNeCJ53Sbw8CqCZC0L359eIm', `last_ip` = '192.168.50.249', `creation_date` = 2024-09-07 15:33:01.449, `last_seen` = 2024-11-30 20:30:50.917, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"premium.force-notification"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2024/11/30 20:30:50]: §4[nLogin] [ERROR] §cUnexpected error during sending plugin message via ProtocolLib
+java.lang.ExceptionInInitializerError
+	at com.comphenix.protocol.wrappers.CustomPacketPayloadWrapper.<clinit>(CustomPacketPayloadWrapper.java:93)
+	at com.comphenix.protocol.events.AbstractStructure.getCustomPacketPayloads(AbstractStructure.java:978)
+	at com.nickuc.login.πιμΦζΩτχβΦγυξΛ.a(:123)
+	at com.nickuc.login.ξπξξςκγχ.b(:75)
+	at com.nickuc.login.ξπξξςκγχ.a(:123)
+	at com.nickuc.login.γδδΛζΨφδΠΛ.a(:71)
+	at com.nickuc.login.ςτΩΦπρηΩΓ.a(:100)
+	at com.nickuc.login.ςτΩΦπρηΩΓ.a(:114)
+	at com.nickuc.login.ξΩνεξτεθΩΓυςπΩε.a(:83)
+	at com.nickuc.login.ξξοηλξνΨ.b(:92)
+	at com.nickuc.login.ΨπξΣευΣΠγςτ.d(:118)
+	at org.bukkit.craftbukkit.v1_21_R1.scheduler.CraftTask.run(CraftTask.java:82)
+	at org.bukkit.craftbukkit.v1_21_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalArgumentException: Unable to find a method that matches {modifiers=[required: 0, banned: 1000], return={ type exactly class net.minecraft.resources.MinecraftKey }, paramCount=0}
+	at com.comphenix.protocol.reflect.FuzzyReflection.getMethod(FuzzyReflection.java:193)
+	at com.comphenix.protocol.wrappers.CustomPacketPayloadWrapper.<clinit>(CustomPacketPayloadWrapper.java:58)
+	... 15 more
+[2024/11/30 20:30:50]: [nLogin] The user Nergon123 has successfully logged in.
+[2024/11/30 21:01:44]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Nergon123', `unique_id` = 4c350acc12e5368e88f325c804a845d9,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$JNncbJRnEsTblTMeXYSvz.ClP7GoaXNeCJ53Sbw8CqCZC0L359eIm', `last_ip` = '192.168.50.249', `creation_date` = 2024-09-07 15:33:01.449, `last_seen` = 2024-11-30 21:01:44.387, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"premium.force-notification"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
